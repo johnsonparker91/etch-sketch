@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+}
+
+.content {
+    width: 25%;
+    flex: 1;
+}
+
+.content:hover {
+    color: black;
+}

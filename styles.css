@@ -1,12 +1,18 @@
 .container {
+    display: flexbox;
+}
+
+.row {
     display: flex;
 }
 
-.content {
-    width: 25%;
-    flex: 1;
+.grid-div {
+    padding: 1em;
+    border: 1px solid #ddd;
+    color: blue;
+    margin: 0;
 }
 
-.content:hover {
-    color: black;
+.grid-div:hover {
+    background-color: black;
 }
